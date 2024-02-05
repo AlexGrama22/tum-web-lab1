@@ -14,9 +14,14 @@
 
 .nameSection{
     display: grid;
-    grid-template-columns: 0.3fr 1fr 0.4fr 1fr 0.3fr 1fr
+    grid-template-columns: 1fr 0.3fr 0.7fr 0.4fr 0.7fr 0.3fr 1fr
 }
 
 .infoBox{
     grid-column: 1/ span 6;
+}
+
+.nameSection img {
+    width: 190px;
+    border-radius: 20px;
 }

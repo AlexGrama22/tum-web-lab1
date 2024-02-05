@@ -1,10 +1,22 @@
 .page{
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 2%;   
+    padding-top: 2%; 
+
+}
+
+.dataTab{
+    background-color: rgb(226, 226, 226);
+    border-radius: 24px;
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px 0px #000000; */
 }
 
 .nameSection{
     display: grid;
     grid-template-columns: 0.3fr 1fr 0.4fr 1fr 0.3fr 1fr
+}
+
+.infoBox{
+    grid-column: 1/ span 6;
 }

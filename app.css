@@ -1,0 +1,10 @@
+.page{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2%;   
+}
+
+.nameSection{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.4fr 1fr 0.3fr 1fr
+}
